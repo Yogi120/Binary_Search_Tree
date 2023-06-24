@@ -71,5 +71,15 @@ namespace BinarySearchTree
                 PreOrderTraversal(node.Right);
             }
         }
+
+        public void PostOrderTraversal(Node node)
+        {
+            if (node != null)
+            {
+                PostOrderTraversal(node.Left);
+                PostOrderTraversal(node.Right);
+                Console.Write(node.Value + " ");
+            }
+        }
     }
 }

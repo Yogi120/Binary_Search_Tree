@@ -27,6 +27,10 @@ namespace BinarySearchTree
             Console.WriteLine("Pre-order Traversal:");
             tree.PreOrderTraversal(tree.Root);
             Console.WriteLine();
+
+            Console.WriteLine("Post-order Traversal:");
+            tree.PostOrderTraversal(tree.Root);
+            Console.WriteLine();
         }
     }
 }
