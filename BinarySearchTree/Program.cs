@@ -23,6 +23,10 @@ namespace BinarySearchTree
             Console.WriteLine("In-order Traversal:");
             tree.InOrderTraversal(tree.Root);
             Console.WriteLine();
+
+            Console.WriteLine("Pre-order Traversal:");
+            tree.PreOrderTraversal(tree.Root);
+            Console.WriteLine();
         }
     }
 }
